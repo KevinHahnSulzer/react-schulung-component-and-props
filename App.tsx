@@ -1,15 +1,13 @@
 import * as React from 'react';
-import ChildComponent from './Child';
 import './style.css';
 
 export default function App(props) {
   return (
     <div>
-      <h1>{props.title}</h1>
-      <p>{props.task}</p>
-      <p>
-        <ChildComponent />
-      </p>
+      <h1>Exercise: Components and props</h1>
+      <p>Have a look at README.md to start the task.</p>
+      <p>Start with your solution below this line:</p>
+      <hr />
     </div>
   );
 }
